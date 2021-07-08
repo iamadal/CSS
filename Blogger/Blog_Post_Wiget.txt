@@ -1,2 +1,0 @@
-Font-family is already loaded so call it from CSS
-

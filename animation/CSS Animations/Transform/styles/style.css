@@ -1,0 +1,38 @@
+/*  Custom UI CSS */
+
+div {border: 1px solid red; padding: 3px;}
+
+/* Highly Responsive Custom UI */
+
+/* Extra Small Devices(xs) */
+@media screen and (max-width:760px)
+{ 
+    div.xs { display: block; font-size: 15px; }
+    div.sm { display: none; }
+    div.md { display: none; }
+    div.lg { display: none;}
+}
+/* Small Devices(sm) */
+@media screen and (min-width:761px) and (max-width:1024px) 
+{ 
+    div.xs { display: none; }
+    div.sm { display: block; font-size: 20px; }
+    div.md { display: none;}
+    div.lg { display: none;}
+}
+/* Medium Devices(md) */
+@media screen and (min-width:1025px) and (max-width:1280px) 
+{ 
+    div.xs { display: none; }
+    div.sm { display: none; }
+    div.md { display: block; font-size: 25px;}
+    div.lg { display: none;}
+}
+/* Desktop(lg) */
+@media screen and (min-width:1280px)
+{ 
+    div.xs { display: none; }
+    div.sm { display: none; }
+    div.md { display: none; }
+    div.lg { display: block; font-size: 30px;}
+}

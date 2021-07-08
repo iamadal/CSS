@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title><data:blog.pageTitle/></title>
+</head>
+<body>
+  <b:section id='header' class='header' maxwidgets="1" showaddelement="no">
+<!-- Section contents -->
+</b:section>
+<b:section id="sidebar" class="sidebar" maxwidgets="" showaddelement="yes">
+</b:section>
+<b:section id='main' class='main' maxwidgets="1" showaddelement="no">
+<!-- Section contents -->
+</b:section>
+<b:section id='footer' class='footer' showaddelement="no">
+<!-- Section contents -->
+</b:section>
+</body>
+</html>
+
+// Basic Layouts
+
+
+// Correct format of the Sections 
+
+<b:section id=’ ‘ class=' ' maxwidgets=' ' showaddelement=' '>
+<b:widget……../>
+</b:section>
+
+
+//-----------------------------------------------
+
+After writing the code please add Drag the widget where ever you want

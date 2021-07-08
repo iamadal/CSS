@@ -1,5 +1,0 @@
-01. There are 4 types of postion
-    a. static - fixed at any point
-    b. fixed - fixed at any point
-    c. relative - it occupy space and push others in the queue
-    d. absolute - using left, right, top and bottom fixed the posion of the object and push it out of the normal flow

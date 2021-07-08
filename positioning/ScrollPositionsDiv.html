@@ -59,6 +59,10 @@
     <h1>Hi Reached the ground</h1>
 </body>
 <style>
+    :root {
+        --base-color: #343434;
+        --header-nav: 3px;
+    }
    * , *::before, *::after {margin:0px; padding: 0px; box-sizing: border-box;}
    div {border: 1px solid red;}
    .container {height: 300px; overflow-y: scroll;}
@@ -66,9 +70,10 @@
 </style>
 <script>
     window.onscroll = function(){
-        const container = document.getElementsByClassName('container');
-        const scroll = container.scrollTop;
-        console.log(scroll);
+        const container = document.querySelector('.container');
+        console.log(window.scrollTop);
     }
 </script>
+<!-- document.querySelector() works as jQuery selector. just return the first element -->
+<!-- document.querySelectorAll() return all matched elements  -->
 </html>

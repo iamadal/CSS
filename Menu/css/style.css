@@ -1,0 +1,14 @@
+.mainmenu                   { background-color: #258666; min-height: 50px; position:fixed; width:100%; }
+.mainmenu ul                { list-style: none; margin:0px; padding:0px;}
+.mainmenu ul li             { float: left; border-left: 1px solid #34B98B; position: relative; border-right: 1px solid #9ced98; }
+.mainmenu ul li:first-child { border-left:0px;}
+.mainmenu ul li:last-child  { border-right: 0px;}
+.mainmenu ul li a           { display: block; padding: 15px; color: white; text-decoration: none; font-weight: bold;}
+.mainmenu ul li a:hover     { background-color: #339966;}
+.mainmenu ul li ul          { position:absolute; left: -999999px; }
+.mainmenu ul li ul          { background: blue;}
+.mainmenu ul li:hover ul    { left:0px; }
+.mainmenu ul li ul li       { float: none; border-top: 1px solid #34B98B; width: 300px;}
+.mainmenu ul li ul li a     { background-color: #258666; padding: 10px; font-weight: normal}
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+ 
+  
+  <!-- Head Section for CSS and Other Docs -->
+  <!-- 01. Meta -->
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <!-- Additional Scripts and libraries -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
+  <!-- 02. Main CSS Styles -->
+  <b:skin><![CDATA[
+    /* Variables for UI/UX*/
+    
+  ]]></b:skin>
+ <!-- 02. End of CSS -->
+ <!-- 03. Javascript -->
+  <script type='text/javascript'>
+     $(document).ready(function(){
+        $(&#39;link[href=&quot;https://www.blogger.com/static/v1/widgets/3416767676-css_bundle_v2.css&quot;]&#39;).remove();
+    });
+  </script>
+  <head>
+<title><data:blog.pageTitle/></title>
+</head>
+<body>
+  <!-- Header Section aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <div class="head-section"><b:section class='header' id='header' maxwidgets='1' showaddelement='yes'/></div>
+  <!-- Header Section End aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  
+  <!-- Side Basr Section aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <div class="sidebar-section"><b:section class='sidebar' id='sidebar' maxwidgets='' showaddelement='yes'/></div>
+  <!-- Side Basr Section End aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  -->
+  
+  <!-- Main Section aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <div class="main-section"><b:section class='main' id='main' maxwidgets='1' showaddelement='yes'/></div>
+  <!-- Main Section End aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  
+  <!-- Footer Section  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <div class="footer-section"> <b:section class='footer' id='footer' showaddelement='yes'/></div>
+  <!-- Footer Section End aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+</body>  
+</html>

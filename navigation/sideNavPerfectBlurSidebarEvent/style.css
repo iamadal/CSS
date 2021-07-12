@@ -112,7 +112,7 @@ div.menu-toggle
         /* in design mode left:0px but for production move it beyond the view port */
         left: -100%;
         /* then bring it back if user click on the toggle button */
-        transition: 0.5s;
+        transition: 0.s;
     }    
 
     header nav ul
